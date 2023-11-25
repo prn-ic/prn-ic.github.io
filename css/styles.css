@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap");
+
+body {
+	font-family: "Nunito Sans", sans-serif;
+}
+
+.none {
+    display: none;
+}
+
+.nav {
+    color: #000000;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.nav:hover {
+    color: #0090f7;
+}
+
+:root {
+	--white-theme-element-bg: #eeeeee;
+	--white-theme-element-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.427);
+	--border-radius: 20px;
+}
+
+.container {
+	display: grid;
+	gap: 15px;
+}
+
+.header {
+	position: sticky;
+	top: 0;
+	height: 8vh;
+	box-shadow: var(--white-theme-element-box-shadow);
+	border-radius: var(--border-radius);
+	display: grid;
+	grid-template-columns: 0.2fr 1fr 0.2fr;
+	justify-items: center;
+	justify-content: center;
+	align-items: center;
+    background: #ffffff;
+}
+
+.item {
+	height: 100vh;
+}
+
+.logo {
+    background: #000000;
+    padding: 2px 5px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.navigation {
+	display: grid;
+	justify-items: center;
+	grid-template-columns: repeat(4, 1fr);
+	list-style-type: none;
+    font-size: 24px;
+}
+
+.theme-picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eeeeee;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.introduction {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills {
+    display: grid;
+    align-items: center;
+    column-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-icons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 10px;
+    row-gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.introduction-content {
+    text-align: right;
+}
+
+.content-header {
+    margin: 0;
+    background: #000000;
+    width: auto;
+    color: #ffffff;
+    font-size: 4vh;
+    font-weight: 700;
+}
+
+.introduction-content-p {
+    font-size: 2vh;
+}
+
+.introduction img {
+    border-radius: 50%;
+    width: 250px;
+}
+
+.github-link img {
+    width: 40px;
+}
