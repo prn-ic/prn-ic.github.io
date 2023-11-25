@@ -87,6 +87,19 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
+.portfolio {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    height: 4vh;
+}
+
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .skills-icons {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -121,4 +134,33 @@ body {
 
 .github-link img {
     width: 40px;
+}
+
+.portfolio-header {
+    margin: 0;
+    text-align: right;
+    background: #000000;
+    width: auto;
+    color: #ffffff;
+    font-size: 3vh;
+    font-weight: 700;
+}
+
+.portfolio-images {
+    display: flex;
+    background: #000000;
+}
+
+.portfolio-images img {
+    margin: auto;
+    width: 450px;
+    text-align: center;
+}
+
+.portfolio-content-p {
+    font-size: 2vh;    
+    width: 300px;
+    margin-left: auto;
+    word-wrap: break-word;
+    text-wrap: wrap;
 }
